@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appops>
+	<app>lanxin</app>
+	<actions>
+		<start>
+			<steps>
+				<step action="run" func="启动应用">
+						<binpath>D:\LanxinSoftCustom\main\LxMainNew.exe</binpath>
+						<params></params>
+						<id>run_proc_id</id>
+				</step>
+				<step action="moveto" func="移动到置顶群">
+						<point x="200" y="150"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+				<step action="lclick" func="点击群">
+				</step>
+				<step action="moveto" func="移动到文本框">
+						<point x="400" y="950"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+                <step action="lclick" func="获取焦点">
+				</step>
+				<step action="settext" func="输入内容">
+						<text>helloworld</text>
+				</step>
+				<step action="moveto" func="移动到发送按钮">
+						<point x="1871" y="1000"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+				<step action="lclick" func="发送消息">
+				</step>
+				<step action="moveto" func="移动到文本框">
+						<point x="400" y="950"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+                <step action="lclick" func="获取焦点">
+				</step>
+				<step action="settext" func="输入内容">
+						<text>helloworld</text>
+				</step>
+				<step action="moveto" func="移动到发送按钮">
+						<point x="1871" y="1000"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+				<step action="lclick" func="发送消息">
+				</step>
+				<step action="moveto" func="移动到文本框">
+						<point x="400" y="950"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+                <step action="lclick" func="获取焦点">
+				</step>
+				<step action="settext" func="输入内容">
+				</step>
+				<step action="moveto" func="移动到发送按钮">
+						<point x="1871" y="1000"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+				<step action="lclick" func="发送消息">
+				</step>
+				<step action="moveto" func="移动到文本框">
+						<point x="400" y="950"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+                <step action="lclick" func="获取焦点">
+				</step>
+				<step action="settext" func="输入内容">
+				</step>
+				<step action="moveto" func="移动到发送按钮">
+						<point x="1871" y="1000"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+				<step action="lclick" func="发送消息">
+				</step>
+				<step action="moveto" func="移动到文本框">
+						<point x="400" y="950"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+                <step action="lclick" func="获取焦点">
+				</step>
+				<step action="settext" func="输入内容">
+				</step>
+				<step action="moveto" func="移动到发送按钮">
+						<point x="1871" y="1000"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+				<step action="lclick" func="发送消息">
+				</step>
+				<step action="moveto" func="移动到文本框">
+						<point x="400" y="950"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+                <step action="lclick" func="获取焦点">
+				</step>
+				<step action="settext" func="输入内容">
+				</step>
+				<step action="moveto" func="移动到发送按钮">
+						<point x="1871" y="1000"></point>
+						<ref_win_id>main_win</ref_win_id>
+				</step>
+				<step action="lclick" func="发送消息">
+				</step>
+			</steps>
+		</start>
+		
+		<stop>
+			<steps>
+				
+			</steps>
+		</stop>
+		
+	</actions>
+</appops>
