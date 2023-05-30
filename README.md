@@ -17,14 +17,12 @@ https://www.python.org/downloads/
 ```
 
 ## 使用方法
-1）帮助说明
-```
+1）帮助说明  
 （1）先将闲聊群置顶，否则可能找不到  
 （2）<step action="run" func="启动应用">中设置蓝信安装位置，如D:\LanxinSoftCustom\main\LxMainNew.exe  
 （3）<step action="moveto" func="移动到置顶群">中设置置顶闲聊群的坐标，可使用tools\实时鼠标位置\mousepoint.exe工具来获取位置  
 （4）<step action="moveto" func="移动到文本框">中设置闲聊群聊天窗口的坐标  
 （5）<step action="moveto" func="移动到发送按钮">中设置发送按钮的坐标  
-```
 
 2）用法示例  
 -> 启动蓝信，执行内容 
